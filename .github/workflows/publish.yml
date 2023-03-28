@@ -14,6 +14,6 @@ jobs:
         with:
           username: lt6210925
           password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
+          registry: ghcr.io
           repository: lt6210925/publish-packages/game
           tag_with_sha: true
